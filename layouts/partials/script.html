@@ -1,0 +1,344 @@
+<script data-cfasync="false" src="/js/email-decode.min.js"></script>
+<script type="text/javascript">
+  <!--
+  var seriesdropdown = document.getElementById("orgseries_dropdown");
+  if (seriesdropdown) {
+    function onSeriesChange() {
+      if (
+        seriesdropdown.options[seriesdropdown.selectedIndex].value != (0 || -1)
+      ) {
+        location.href =
+          "https://www.craftypenguins.net/series/" +
+          seriesdropdown.options[seriesdropdown.selectedIndex].value;
+      }
+    }
+    seriesdropdown.onchange = onSeriesChange;
+  }
+  -->
+</script>
+<script>
+  document.addEventListener(
+    "wpcf7mailsent",
+    function (event) {
+      if (57720 == event.detail.contactFormId) {
+        jQuery("body").append(
+          '<a id="cf7fd-attachment-link577201" href="/pdf/CP-Team-Tech-Stack-2021.pdf" download="CP-Team-Tech-Stack-2021"></a>'
+        );
+        jQuery("#cf7fd-attachment-link577201")[0].click();
+
+        setTimeout(function () {
+          jQuery("#cf7fd-attachment-link577201").remove();
+        }, 2000);
+      }
+    },
+    false
+  );
+</script>
+<script>
+  document.addEventListener(
+    "wpcf7mailsent",
+    function (event) {
+      if (57720 == event.detail.contactFormId) {
+        jQuery("body").append(
+          '<a id="cf7fd-attachment-link" href="/pdf/CP-Team-Tech-Stack-2021.pdf" download="CP-Team-Tech-Stack-2021"></a>'
+        );
+        jQuery("#cf7fd-attachment-link")[0].click();
+
+        setTimeout(function () {
+          jQuery("#cf7fd-attachment-link").remove();
+        }, 2000);
+      }
+    },
+    false
+  );
+</script>
+
+<aside
+  id="moove_gdpr_cookie_info_bar"
+  class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom"
+  role="note"
+  aria-label="GDPR Cookie Banner"
+  style="display: none"
+>
+  <div class="moove-gdpr-info-bar-container">
+    <div class="moove-gdpr-info-bar-content">
+      <div class="moove-gdpr-cookie-notice">
+        <p>
+          We are using cookies to give you the best experience on our website.
+        </p>
+        <p>
+          You can find out more about which cookies we are using or switch them
+          off in
+          <span
+            role="link"
+            tabindex="1"
+            data-href="#moove_gdpr_cookie_modal"
+            class="change-settings-button"
+            >settings</span
+          >.
+        </p>
+      </div>
+
+      <div class="moove-gdpr-button-holder">
+        <button
+          class="mgbutton moove-gdpr-infobar-allow-all gdpr-fbo-0"
+          aria-label="Accept"
+          tabindex="1"
+          role="button"
+        >
+          Accept
+        </button>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<script type="text/html" id="wpb-modifications"></script>
+<link
+  rel="stylesheet"
+  id="ultimate-vc-addons-background-style-css"
+  href="/js/background-style.min.css"
+  type="text/css"
+  media="all"
+/>
+<link
+  rel="stylesheet"
+  id="vc_tta_style-css"
+  href="/js/js_composer_tta.min.css"
+  type="text/css"
+  media="all"
+/>
+<script type="text/javascript" src="/js/main.min.js" id="dt-main-js"></script>
+<script
+  type="text/javascript"
+  src="/js/regenerator-runtime.min.js"
+  id="regenerator-runtime-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/wp-polyfill.min.js"
+  id="wp-polyfill-js"
+></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+  /* <![CDATA[ */
+  var wpcf7 = {
+    api: {
+      root: "https:\/\/www.craftypenguins.net\/wp-json\/",
+      namespace: "contact-form-7\/v1",
+    },
+  };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/index.js"
+  id="contact-form-7-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/dt-catcher.js"
+  id="dt-catcher-js"
+></script>
+<script type="text/javascript" id="leadin-script-loader-js-js-extra">
+  /* <![CDATA[ */
+  var leadin_wordpress = {
+    userRole: "visitor",
+    pageType: "home",
+    leadinPluginVersion: "8.15.139",
+  };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/7521192.js"
+  async
+  defer
+  id="hs-script-loader"
+></script>
+<script type="text/javascript" id="awsm-job-scripts-js-extra">
+  /* <![CDATA[ */
+  var awsmJobsPublic = {
+    ajaxurl: "https:\/\/www.craftypenguins.net\/wp-admin\/admin-ajax.php",
+    is_tax_archive: "",
+    is_search: "",
+    job_id: "0",
+    wp_max_upload_size: "20971520",
+    deep_linking: { search: true, spec: true, pagination: true },
+    i18n: {
+      loading_text: "Loading...",
+      form_error_msg: {
+        general:
+          "Error in submitting your application. Please try again later!",
+        file_validation: "The file you have selected is too large.",
+      },
+    },
+    vendors: { selectric: true, jquery_validation: true },
+  };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/script.min.js"
+  id="awsm-job-scripts-js"
+></script>
+<script type="text/javascript" id="wpcf7-redirect-script-js-extra">
+  /* <![CDATA[ */
+  var wpcf7r = {
+    ajax_url: "https:\/\/www.craftypenguins.net\/wp-admin\/admin-ajax.php",
+  };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/wpcf7r-fe.js"
+  id="wpcf7-redirect-script-js"
+></script>
+<script type="text/javascript" id="google-invisible-recaptcha-js-before">
+  var renderInvisibleReCaptcha = function () {
+    for (var i = 0; i < document.forms.length; ++i) {
+      var form = document.forms[i];
+      var holder = form.querySelector(".inv-recaptcha-holder");
+
+      if (null === holder) continue;
+      holder.innerHTML = "";
+
+      (function (frm) {
+        var cf7SubmitElm = frm.querySelector(".wpcf7-submit");
+        var holderId = grecaptcha.render(holder, {
+          sitekey: "6LdicZUUAAAAAHw6Jt0wWfpdpByrPNnbN_l-31tE",
+          size: "invisible",
+          badge: "inline",
+          callback: function (recaptchaToken) {
+            if (null !== cf7SubmitElm && typeof jQuery != "undefined") {
+              jQuery(frm).submit();
+              grecaptcha.reset(holderId);
+              return;
+            }
+            HTMLFormElement.prototype.submit.call(frm);
+          },
+          "expired-callback": function () {
+            grecaptcha.reset(holderId);
+          },
+        });
+
+        if (null !== cf7SubmitElm && typeof jQuery != "undefined") {
+          jQuery(cf7SubmitElm)
+            .off("click")
+            .on("click", function (clickEvt) {
+              clickEvt.preventDefault();
+              grecaptcha.execute(holderId);
+            });
+        } else {
+          frm.onsubmit = function (evt) {
+            evt.preventDefault();
+            grecaptcha.execute(holderId);
+          };
+        }
+      })(form);
+    }
+  };
+</script>
+<script
+  type="text/javascript"
+  async
+  defer
+  src="https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit"
+  id="google-invisible-recaptcha-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/legacy.min.js"
+  id="dt-legacy-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/jquery-mousewheel.min.js"
+  id="jquery-mousewheel-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/custom-scrollbar.min.js"
+  id="the7-custom-scrollbar-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/post-type.min.js"
+  id="the7-core-js"
+></script>
+<script type="text/javascript" id="moove_gdpr_frontend-js-extra">
+  /* <![CDATA[ */
+  var moove_frontend_gdpr_scripts = {
+    ajaxurl: "https:\/\/www.craftypenguins.net\/wp-admin\/admin-ajax.php",
+    post_id: "62218",
+    plugin_dir:
+      "https:\/\/www.craftypenguins.net\/wp-content\/plugins\/gdpr-cookie-compliance",
+    show_icons: "all",
+    is_page: "1",
+    strict_init: "1",
+    enabled_default: { third_party: 0, advanced: 0 },
+    geo_location: "false",
+    force_reload: "false",
+    is_single: "",
+    hide_save_btn: "false",
+    current_user: "0",
+    cookie_expiration: "365",
+    script_delay: "2000",
+    close_btn_action: "1",
+    close_cs_action: "1",
+    gdpr_scor: "true",
+    wp_lang: "",
+  };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/main.js"
+  id="moove_gdpr_frontend-js"
+></script>
+<script type="text/javascript" id="moove_gdpr_frontend-js-after">
+  var gdpr_consent__strict = "false";
+  var gdpr_consent__thirdparty = "false";
+  var gdpr_consent__advanced = "false";
+  var gdpr_consent__cookies = "";
+</script>
+<script type="text/javascript" id="wpb_composer_front_js-js-extra">
+  /* <![CDATA[ */
+  var vcData = { currentTheme: { slug: "dt-the7" } };
+  /* ]]> */
+</script>
+<script
+  type="text/javascript"
+  src="/js/js_composer_front.min.js"
+  id="wpb_composer_front_js-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/jquery-appear.min.js"
+  id="ultimate-vc-addons-appear-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/ultimate_bg.min.js"
+  id="ultimate-vc-addons-row-bg-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/custom.min.js"
+  id="ultimate-vc-addons-custom-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/vc-accordion.min.js"
+  id="vc_accordion_script-js"
+></script>
+<script
+  type="text/javascript"
+  src="/js/vc-tta-autoplay.min.js"
+  id="vc_tta_autoplay_script-js"
+></script>
+<script
+  type="text/javascript"
+  defer
+  src="https://js.hsforms.net/forms/embed/v2.js?ver=8.15.139"
+  id="leadin-forms-v2-js"
+></script>
